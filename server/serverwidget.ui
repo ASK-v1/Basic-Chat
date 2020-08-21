@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ServerWidget</class>
+ <widget class="QWidget" name="ServerWidget">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>274</width>
+    <height>565</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>15</pointsize>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>ServerWidget</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/images/server-icon.jpg</normaloff>:/images/server-icon.jpg</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="1" colspan="3">
+    <widget class="QTextEdit" name="textEditReceive">
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1" colspan="3">
+    <widget class="QTextEdit" name="textEditSend"/>
+   </item>
+   <item row="3" column="1" colspan="3">
+    <widget class="QPushButton" name="buttonClose">
+     <property name="text">
+      <string>Close</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1" colspan="3">
+    <widget class="QPushButton" name="buttonSend">
+     <property name="text">
+      <string>Send</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

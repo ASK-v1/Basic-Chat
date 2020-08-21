@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ClientWidget</class>
+ <widget class="QWidget" name="ClientWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>274</width>
+    <height>565</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>15</pointsize>
+    <weight>75</weight>
+    <italic>false</italic>
+    <bold>true</bold>
+    <underline>false</underline>
+    <strikeout>false</strikeout>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="4" column="1" colspan="3">
+    <widget class="QTextEdit" name="textEditSend"/>
+   </item>
+   <item row="1" column="2">
+    <widget class="QLineEdit" name="lineEditIP">
+     <property name="text">
+      <string>127.0.0.1</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1" colspan="3">
+    <widget class="QTextEdit" name="textEditReceive">
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="1" colspan="3">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="buttonClose">
+       <property name="text">
+        <string>Close</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLabel" name="label">
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string>Port</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2">
+    <widget class="QLineEdit" name="lineEditPort">
+     <property name="text">
+      <string>8888</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>IP Adress</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="1" colspan="3">
+    <widget class="QPushButton" name="buttonConnect">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>80</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string>Connect</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="1" colspan="3">
+    <widget class="QPushButton" name="buttonSend">
+     <property name="text">
+      <string>Send</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/new">
+        <file>client.png</file>
+    </qresource>
+</RCC>
